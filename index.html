@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>My VR scene</title>
+<script src = "http://aframe.io/releases/0.6.1/aframe.min.js"></script>
+
+</head>
+<body>
+<a-assets>
+<img id ="texture" src="images/th.jpeg">
+<img id ="shore" src="images/iu.jpeg">
+
+</a-assets>
+<a-scene>
+
+<a-sphere position="0 1.5 -7" radius="1.25" color="red" shadow src="#texture"></a-sphere>
+<a-sphere position="1 1.75 -6" radius="1.25" color="red" shadow src="#texture"></a-sphere>
+<a-sphere position="3 2.00 -7" radius="1.25" color="red" shadow src="#texture"></a-sphere>
+<a-sphere position="5 2.25 -7" radius="1.25" color="red" shadow src="#texture"></a-sphere>
+
+<a-box height ="1" width ="2" depth=" 1" position ="0 1 -2" color ="red"rotation= "45 45 45" shadow src="#texture"></a-box>
+<a-box height ="1" width ="2" depth=" 1" position ="0 2 0-3" color ="red"rotation= "45 45 45" shadow src="#texture"></a-box>
+<a-box height ="1" width ="2" depth=" 1" position ="0 3 -6"-color ="red"rotation= "45 45 45" shadow src="#texture"></a-box>
+<a-box height ="1" width ="2" depth=" 1" position ="0 4 -7" color ="red"rotation= "45 45 45" shadow src="#texture"></a-box>
+<a-box height ="1" width ="2" depth=" 1" position ="0 5 -4" color ="red"rotation= "45 45 45" shadow src="#texture"></a-box>
+<a-sphere position="7 3 -8" radius="1.25" color="red" shadow src="#texture"></a-sphere>
+<a-sphere position="9 3.25 -9" radius="1.25" color="white" shadow src="#texture"></a-sphere>
+<a-sphere position="11 3.5 -10" radius="1.25" color="white" shadow src="#texture"></a-sphere>
+<a-sphere position="13 3.75-11" radius="1.25" color="white" shadow src="#texture"></a-sphere>
+      
+<a-sky src="#shore"></a-sky>
+</a-scene>
+</body>
+</html>
